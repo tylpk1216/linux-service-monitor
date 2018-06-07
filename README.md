@@ -1,10 +1,10 @@
 # linux-service-monitor
-The script will monitor your services, and will start it if it is not running.
+The script will monitor your services, and will start the service if it is not running.
 
-You can add your service process in processes array and service name in service name in services array.
+You can add your service process in processes array and service name in services array.
 
 You can also modify sleepSecs to decide your check interval.
 
-If you don't just save message in the log, you can send email or do something.
+If you want to do more things, you can also modify this script to send email or do something.
 
 I hope this script is useful to you.
