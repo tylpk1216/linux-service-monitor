@@ -4,11 +4,16 @@ shopt -s -o nounset
 declare -a processes
 declare -a services
 
+# your service process name to monitor
 processes=('php-fpm' 'mysql' 'nginx')
+
+# your service name to start
 services=('php7.0-fpm' 'mysql' 'nginx')
-totalProcess=${#processes[@]}
+
+# monitor interval
 sleepSecs=10
 
+totalProcess=${#processes[@]}
 
 addLog()
 {
