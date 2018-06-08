@@ -9,7 +9,8 @@ If you want to do more things, you can also modify this script to send email or 
 
 I hope this script is useful to you.
 
-### user controllable variables
+
+### User controllable variables
 ```
 # your service process name to monitor
 processes=('php-fpm' 'mysql' 'nginx')
@@ -20,6 +21,7 @@ services=('php7.0-fpm' 'mysql' 'nginx')
 # monitor interval
 sleepSecs=10
 ```
+
 
 ### Do more things not only log
 You can do anything you want to do here.
